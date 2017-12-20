@@ -23,7 +23,6 @@ public class MovieController {
 
     @GetMapping("/movie/{id}")
     public User findById(@PathVariable Long id){
-        //TODO 更改此处硬编码访问微服务方式
         return this.restTemplate.getForObject(userServicePath+id,User.class);
     }
 

@@ -2,7 +2,7 @@ server:
   port: 7901
 
 
-#TODO 更改此处硬编码访问微服务方式
+#此处硬编码访问微服务方式
 user:
   userServicePath: http://localhost:7900/simple/
 
