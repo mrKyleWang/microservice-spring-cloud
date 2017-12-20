@@ -179,7 +179,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="641" />
     <option name="y" value="8" />
     <option name="width" value="1224" />
@@ -583,12 +583,12 @@
       <workItem from="1513664555336" duration="5473000" />
       <workItem from="1513737968837" duration="2120000" />
       <workItem from="1513740909716" duration="1524000" />
-      <workItem from="1513750510918" duration="525000" />
+      <workItem from="1513750510918" duration="869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22816000" />
+    <option name="totallyTimeSpent" value="23160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +600,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31823462" sideWeight="0.49248928" order="5" side_tool="false" content_ui="tabs" />
