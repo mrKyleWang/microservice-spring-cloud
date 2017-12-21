@@ -1,0 +1,21 @@
+server:
+  port: 7901
+
+spring:
+  application:
+    name: microservice-consumer-movie-feign-customizing
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+
+#配置feign日志
+logging:
+  level:
+    top.kylewang.cloud.UserFeignClient: DEBUG
