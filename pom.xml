@@ -35,6 +35,8 @@
         <module>microservice-config-client-eureka</module>
         <module>microservice-config-client-refresh</module>
 
+        <module>eureka-server</module>
+
     </modules>
 
     <properties>
